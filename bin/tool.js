@@ -2,12 +2,12 @@
  * @Author: maggot-code
  * @Date: 2021-07-01 14:01:26
  * @LastEditors: maggot-code
- * @LastEditTime: 2021-07-06 14:15:42
+ * @LastEditTime: 2021-07-06 15:05:30
  * @Description: file content
  */
 const path = require('path')
 const { isString } = require('lodash');
-const { TEMPLATEPREFIX } = require('../config/external.conf.json');
+const { TEMPLATEPREFIX } = require('./config/external.conf.json');
 
 // 参数准备
 const paramsGetready = (projectName) => {
