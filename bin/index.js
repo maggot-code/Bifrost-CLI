@@ -4,18 +4,18 @@
  * @Author: maggot-code
  * @Date: 2021-06-25 11:20:29
  * @LastEditors: maggot-code
- * @LastEditTime: 2021-07-06 14:18:36
+ * @LastEditTime: 2021-07-06 14:44:45
  * @Description: file content
  */
 const { program } = require("commander");
 const { version } = require('../package.json');
 
-const UseShowConfig = require('../script/useShowConfig');
-const UsePrefix = require('../script/usePrefix');
-const UseResetConfig = require('../script/useResetConfig');
-const UseSettemplate = require('../script/useSettemplate');
-const UseDeltemplate = require('../script/useDeltemplate');
-const UseComponent = require('../script/useComponent');
+const UseShowConfig = require('./script/useShowConfig');
+const UsePrefix = require('./script/usePrefix');
+const UseResetConfig = require('./script/useResetConfig');
+const UseSettemplate = require('./script/useSettemplate');
+const UseDeltemplate = require('./script/useDeltemplate');
+const UseComponent = require('./script/useComponent');
 
 const { argv } = process;
 

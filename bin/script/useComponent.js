@@ -2,13 +2,13 @@
  * @Author: maggot-code
  * @Date: 2021-07-06 10:30:02
  * @LastEditors: maggot-code
- * @LastEditTime: 2021-07-06 14:31:38
+ * @LastEditTime: 2021-07-06 14:42:44
  * @Description: file content
  */
 const path = require('path');
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { PREFIX, camelCase } = require('../bin/tool');
+const { PREFIX, camelCase } = require('../tool');
 
 const renderEntryTemplate = require('../template/component/entry');
 const renderVueTemplate = require('../template/component/vue');
